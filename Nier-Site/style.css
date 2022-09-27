@@ -1,0 +1,142 @@
+h1 {
+  color: #20b2aa;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+p {
+  padding-left: 20px;
+  color: #;
+  font-size: 120%;
+  font-family: Verdana;
+  text-align: center;
+}
+
+h2 {
+  color: #008080;
+  text-align: center;
+}
+
+h3 {
+  color: #008b8b;
+  text-align: center;
+}
+
+h4 {
+  color: #FFFFFF;
+  background-color: limegreen;
+  text-align: center;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+  background-color: #fff;
+  color: #333;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { display: inline; }
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid #0066FF;
+  border-radius: 20px 5px;
+  width: 1000px;
+  text-align: center;
+  background-color: #33ADFF;
+}
+#navbar a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+}
+#navbar a:hover {
+  border-radius: 20px 5px;
+  background-color: #0066FF;
+}
+
+#dem {
+font-weight: bold;
+background-color: seagreen;
+}
+
+#navbar2 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 1080px;
+}
+
+#navbar2 a {
+  background-color: #949494;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 5px solid #33ADFF;
+  display: block;
+}
+#navbar2 li {
+  border-left: 10px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+#navbar2 a:hover {
+  background-color: #666;
+  border-left: 5px solid #3333FF;
+}
+
+#ritus { 
+  text-align: center;
+  text-shadow: 20px 20px 30px #006400; 
+}
+
+.text {
+  color: transparent;    
+  -webkit-background-clip: text;
+  background-clip: text;    
+  background-image: url('img/circle.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-wrapper{
+  display: flex;  
+  justify-content: center;  
+}
+
+.calculate-form {
+display: flex;
+justify-content: center;
+}
+
+.passform {
+  display: flex;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+#title-time {
+  background-color: greenyellow;
+}
+
+.fullname {
+  font-style: italic;
+  font-size: 20px;
+}
